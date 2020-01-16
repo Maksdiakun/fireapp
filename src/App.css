@@ -1,0 +1,36 @@
+.nav > .container {
+  height: fit-content;
+  padding: 10px 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav > .container > * {
+  vertical-align: middle;
+}
+.UlLinks {
+  display: flex;
+  align-items: center;
+}
+.UlLinks > li {
+  margin-right: 20px;
+}
+.UlLinks a {
+  color: aliceblue;
+}
+.dashboard .card * {
+  margin-bottom: 15px;
+  display: block;
+}
+.dashboard .card {
+  margin-bottom: 30px;
+}
+
+.card {
+  padding: 15px;
+}
+
+a:hover {
+  color: rgba(255, 255, 102, 0.8);
+}
